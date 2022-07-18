@@ -1,0 +1,41 @@
+.nav {
+  &__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__list-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1D1F22;
+    text-decoration: none;
+    
+  }
+
+  &__item {
+    font-family: 'Raleway';
+    list-style-type: none;
+    margin-right: 16px;
+    padding-bottom: 32px;
+  }
+
+  &__item:last-child {
+    margin-right: 0; 
+  }
+
+  &__item:hover {
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    border-bottom: 2px solid #5ECE7B;
+  }
+
+  &__list-link:hover {
+    color: #5ECE7B;
+  }
+}

@@ -1,0 +1,163 @@
+.productList {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+
+  &__small-images {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+  }
+
+  &__small-img {
+    width: 79px;
+    height: 80px;
+    margin-bottom: 40px;
+  }
+
+  &__small-img:last-of-type {
+    margin: 0;
+  }
+  
+  &__main-img {
+    width: 610px;
+    height: 511px;
+    margin-right: 100px;
+  }
+
+  &__info {
+    width: 292px;
+    height: 595px;
+    text-align: left;
+  }
+
+  &__firm {
+    margin: 0 0 16px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+    color: #1D1F22;
+  }
+
+  &__name {
+    margin: 0 0 43px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 27px;
+    color: #1D1F22;
+  }
+
+  &__sizes,
+  &__colors,
+  &__price {
+    margin: 0 0 8px;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #1D1F22;
+  }
+
+  &__sizes_btn {
+    margin-bottom: 24px;
+  }
+  &__size-btn {
+    width: 63px;
+    height: 45px;
+    margin-right: 12px;
+    padding: 0;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color:#1D1F22;
+    background-color: white;
+    border: 1px solid #1D1F22;
+    cursor: pointer;
+  }
+
+  &__size-btn:last-of-type{
+    margin-right:0;
+  }
+
+  &__size-btn:hover {
+    color: white;
+    background-color:#1D1F22;
+  }
+
+  [data-bg='grey'] {
+    background-color: #D3D2D5;
+  }
+
+  [data-bg='black'] {
+    background-color: #2B2B2B;
+  }
+
+  [data-bg='green'] {
+    background-color: #0F6450;
+  }
+
+  [data-bg='blue'] {
+    background-color: #15A4C3;
+  }
+
+  [data-bg='orange'] {
+    background-color: #EA8120;
+  }
+
+  
+  &__colors-btn {
+    margin-bottom: 36px;
+  }
+
+  &__color-btn {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    padding: 0;
+    color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
+  &__color-btn:hover {
+    border: 1px solid #5ECE7B;
+  }
+
+  &__value-price {
+    margin: 0 0 20px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    color: #1D1F22;
+  }
+
+  &__add-btn {
+    width: 292px;
+    height: 52px;
+    padding: 0;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #5ECE7B;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__add-btn:hover {
+    background-color: #068b2a;;
+  }
+
+  &__description {
+    margin: 40px 0 0 0;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.96%;
+    color: #1D1F22;
+  }
+}

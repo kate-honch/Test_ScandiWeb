@@ -1,0 +1,144 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1238px;
+  height: 80px;
+  padding: 24px 0 15px 0;
+  background-color: white;
+  margin: 0 auto;
+
+  &__btns {
+    display: flex;
+    position: relative;
+  }
+
+  &__main-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  &__main-btn:first-child{
+    margin-right: 22px;
+  }
+
+  &__arrowDown{
+    padding-left: 10px;
+  }
+
+  &__currency-list {
+    width: 114px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top:30px;
+    left: 0;
+    list-style-type: none;
+  }
+
+  &__currency-link {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #1D1F22;
+    text-decoration: none;
+  }
+
+  &__currency-link:hover {
+    background-color: #EEEEEE;;
+  }
+
+  &__cart-list {
+    position: absolute;
+    top: 43px;
+    right: 10px;
+    width: 325px;
+    height: 677px;
+    padding: 15px;
+    background-color: white;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 35px rgba(168, 172, 176, 0.19));
+    z-index: 5;
+  }
+
+  &__cart-list-title {
+    margin: 0 0 40px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D1F22;
+  }
+
+  &__cart-list-title span {
+    font-weight: 500;
+  }
+
+  &__totalSum {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1D1F22;
+  }
+
+  &__quantity{
+    width:15px;
+    height: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+  
+  &__totalSum span:last-child {
+    font-weight: 700;
+  }
+
+  &__check-btns {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;;
+    text-align: center;
+  }
+
+  &__viewBag-btn,
+  &__checkOut-btn{
+    width: 140px;
+    height: 43px;
+  }
+  
+  &__viewBag-btn{
+    color: #1D1F22;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  &__viewBag-btn:hover {
+    color: white;
+    background-color: #36383b;
+  }
+
+  &__checkOut-btn {
+    color: #FFFFFF;
+    background-color: #5ECE7B;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__checkOut-btn:hover {
+    background-color: #068b2a;
+  }
+}
