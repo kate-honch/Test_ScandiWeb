@@ -1,8 +1,7 @@
 # Test work ScandiWeb
 
- [DEMO](https://kate-honch.github.io/Test_ScandiWeb/)
 
-## Available Scripts
+## In order to run project
 
 In the project directory, you can run:
 
